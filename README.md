@@ -24,7 +24,7 @@ npx prisma-editor
 
 This command will:
 - Start a local server and load your project's `prisma/schema.prisma` file
-- Open the editor UI in your browser
+- Open the editor UI in your browser: http://localhost:5566
 - Allow you to make visual changes
 - Save changes directly back to your project when you click "Save Schema"
 
