@@ -1,0 +1,17 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="32" height="32" rx="6" fill="#5A67D8" />
+  
+  <!-- Left curly bracket "{" covering top to bottom -->
+  <path d="M10,4 C8,4 8,7 8,9 C8,11 8,13 6,16 C8,19 8,21 8,23 C8,25 8,28 10,28" 
+        stroke="#00FFD1" stroke-width="2" fill="none" stroke-linecap="round" />
+  
+  <!-- Right curly bracket "}" covering top to bottom -->
+  <path d="M22,4 C24,4 24,7 24,9 C24,11 24,13 26,16 C24,19 24,21 24,23 C24,25 24,28 22,28" 
+        stroke="#00FFD1" stroke-width="2" fill="none" stroke-linecap="round" />
+  
+  <!-- Database cylinder in the center -->
+  <ellipse cx="16" cy="13" rx="6" ry="2.5" fill="#ffffff" />
+  <path d="M10,13 v6 a6,2.5 0 0,0 12,0 v-6" fill="#ffffff" fill-opacity="0.6" />
+  <ellipse cx="16" cy="19" rx="6" ry="2.5" fill="#ffffff" />
+</svg>
