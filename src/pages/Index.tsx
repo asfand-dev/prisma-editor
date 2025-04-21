@@ -275,7 +275,7 @@ const Index = () => {
     if (!activeItem) {
       return (
         <div className="flex flex-col items-center justify-center h-full p-8 bg-slate-50 border border-dashed border-slate-200 rounded-lg text-center">
-          <h2 className="text-xl font-semibold text-slate-700 mb-2">Welcome to Prisma Schema Composer</h2>
+          <h2 className="text-xl font-semibold text-slate-700 mb-2">Welcome to Prisma Schema Editor</h2>
           <p className="text-slate-500 mb-8 max-w-md">
             Select an item from the sidebar to start editing, or create a new model or enum.
           </p>

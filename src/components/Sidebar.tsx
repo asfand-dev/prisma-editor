@@ -175,7 +175,7 @@ const Sidebar = ({
           >
             {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
           </Button>
-          <h2 className="text-lg font-semibold text-slate-800">Prisma Schema Composer</h2>
+          <h2 className="text-lg font-semibold text-slate-800">Prisma Schema Editor</h2>
         </div>
       )}
 
@@ -183,7 +183,7 @@ const Sidebar = ({
         className={cn(
           "w-64 border-r border-slate-200 h-full bg-white flex flex-col",
           isMobile && "fixed z-30 transition-transform duration-300 shadow-lg",
-          isMobile && (mobileMenuOpen ? "translate-x-0" : "-translate-x-full")
+          isMobile && (mobileMenuOpen ? "translate-x-0 translate-y-[60px]" : "-translate-x-full")
         )}
       >
         {!isMobile && (

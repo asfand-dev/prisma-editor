@@ -47,7 +47,7 @@ const Header = ({ onImport, onExport, onNewModel, schemaValid }: HeaderProps) =>
   return (
     <header className="flex items-center justify-between p-4 bg-white border-b border-slate-200 sticky top-0 z-10">
       <div className="flex items-center">
-        <h1 className="text-2xl font-bold text-slate-800 mr-2">Prisma Schema Composer</h1>
+        <h1 className="text-2xl font-bold text-slate-800 mr-2">Prisma Schema Editor</h1>
         <span className="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Beta</span>
       </div>
 
