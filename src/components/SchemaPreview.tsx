@@ -54,7 +54,7 @@ const SchemaPreview = ({ schema }: SchemaPreviewProps) => {
           {copied ? "Copied!" : "Copy"}
         </Button>
       </div>
-      <pre className="p-4 text-sm text-slate-200 overflow-auto max-h-[600px] whitespace-pre-wrap">
+      <pre className="p-4 text-sm text-slate-200 overflow-auto whitespace-pre-wrap">
         <code>{schemaCode}</code>
       </pre>
     </div>

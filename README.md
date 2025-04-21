@@ -14,6 +14,45 @@
 
 With Prisma Editor, you can easily import existing schemas for visualization and modification, then export your work back to a standard schema.prisma file. Built with responsiveness in mind, it integrates seamlessly into existing dashboards or workflows, making database modeling more accessible and efficient.
 
+## 📸 Screenshots
+
+Here are some screenshots showcasing the interface and features:
+
+<table style="width:100%">
+  <tr>
+    <td style="text-align:center">
+      <img src="./documentation/screenshots/ui-1.png" alt="Main Layout 1" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px; width: 100%;">
+      <p style="text-align: center;">Model View</p>
+    </td>
+    <td style="text-align:center">
+      <img src="./documentation/screenshots/ui-2.png" alt="Main Layout 2" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px; width: 100%;">
+      <p style="text-align: center;">Enum View</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="text-align:center">
+      <img src="./documentation/screenshots/ui-3.png" alt="Main Layout 1" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px; width: 100%;">
+      <p style="text-align: center;">Generator Configurations</p>
+    </td>
+    <td style="text-align:center">
+      <img src="./documentation/screenshots/ui-4.png" alt="Main Layout 2" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px; width: 100%;">
+      <p style="text-align: center;">Datasource Configurations</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="text-align:center">
+      <img src="./documentation/screenshots/ui-5.png" alt="Main Layout 1" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px; width: 100%;">
+      <p style="text-align: center;">ERD View</p>
+    </td>
+    <td style="text-align:center">
+      <img src="./documentation/screenshots/ui-6.png" alt="Main Layout 2" style="border: 1px solid #ddd; border-radius: 5px; padding: 5px; width: 100%;">
+      <p style="text-align: center;">Generated Code View</p>
+    </td>
+  </tr>
+</table>
+
 ## 🚀 Use in Your Prisma Project
 
 Run Prisma Editor directly within your existing Prisma project to visually edit your schema:
