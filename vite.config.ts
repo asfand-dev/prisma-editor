@@ -4,14 +4,12 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: process.env.NODE_ENV === 'production' ? '/prisma-editor/' : '/',
+  base: process.env.NODE_ENV === 'development' ? '/' : '/prisma-editor/',
   server: {
     host: "::",
     port: 3000,
   },
-  plugins: [
-    react(),
-  ].filter(Boolean),
+  plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
